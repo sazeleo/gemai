@@ -2,40 +2,42 @@
 
 > AI-powered valuation layer for a $38.4B market with no price benchmark.
 
-**[Live Platform](https://gemai-website.vercel.app)** · **[Behavioral Protocol](https://gemai-website.vercel.app/protocol.html)**
-
 Built during the **Claude Hackathon (April 2026)** using Claude Opus 4.7, Claude Code, and Cowork.
 
 ---
 
 ## The Problem
 
-Colored gemstones have no Rapaport. No standardized pricing. Two identical 3ct Burmese rubies can be $5,000 and $500,000. This single gap cascades into three failures:
+Colored gemstones have no Rapaport. No standardized pricing. Two identical 3ct Burmese rubies can be $5,000 and $500,000.
+
+This single gap cascades into three downstream failures:
 
 1. **Lending:** Banks provide $12B+ to diamond midstream, ~$0 to colored gems — they can't value the collateral.
 2. **Insurance:** Appraisers disagree by 300% on the same stone. Insurers can't price risk.
 3. **Miner exploitation:** Artisanal miners capture 10–20% of retail value because they have zero market data.
 
-GemAI is the pricing layer that sits underneath all of this.
+The infrastructure exists. The pricing layer doesn't. GemAI builds it.
 
 ---
 
 ## What We Built
 
-### 1. The Platform — [gemai-website.vercel.app](https://gemai-website.vercel.app)
+### 1. The Platform
+**[gemai-website.vercel.app](https://gemai-website.vercel.app/index.html)**
 
-A full-stack gemstone intelligence platform:
+A full-stack gemstone intelligence platform built in <48 hours:
 
 - **AI Appraisal** — upload a gemstone image, get stone ID, origin, authenticity breakdown, and retail value range in seconds
-- **Interactive Mine Map** — 10 priority deposits across 61 countries, with rarity signals and price trends
+- **Interactive Mine Map** — 10 priority deposits across 61 countries, with rarity signals and price trends per site
 - **Stakeholder Ecosystem** — visual map of how the pricing layer connects miners, labs, jewelers, lenders, and insurers
-- **Underwriting Demo** — live walkthrough of how AI valuation enables collateral-based lending for artisanal miners
+- **Underwriting Demo** — live walkthrough of how AI valuation unlocks collateral-based lending for artisanal miners
 
-### 2. The Behavioral Protocol — [gemai-website.vercel.app/protocol.html](https://gemai-website.vercel.app/protocol.html)
+### 2. The Behavioral Protocol
+**[gemai-website.vercel.app/protocol.html](https://gemai-website.vercel.app/protocol.html)**
 
 The novel contribution. AI image analysis prices what's visible. It can't price desire.
 
-We built a structured observation framework that captures 6 behavioral signals during human-stone interaction — formalizing what auction houses like Sotheby's have done intuitively for centuries. Combined with AI market data, the model achieves:
+We built a structured observation framework that captures 6 behavioral signals during human-stone interaction — formalizing what auction houses like Sotheby's have done intuitively for centuries. No devices. No wearables. Combined with AI market data, the model achieves:
 
 | Method | Avg. Error | R² |
 |--------|-----------|-----|
@@ -49,20 +51,18 @@ We built a structured observation framework that captures 6 behavioral signals d
 |---|--------|-----------------|
 | 01 | First-Touch Latency | Desire impulse — seconds to first reach |
 | 02 | Gaze Duration | Perceived depth and optical complexity |
-| 03 | Rotation Index | Active fascination (pleochroism, color shift) |
-| 04 | Light-Seeking | Binary: does the buyer seek a light source? |
-| 05 | Return Rate | Conflicted desire — put down, picked back up |
+| 03 | Rotation Index | Active fascination with pleochroism and color shift |
+| 04 | Light-Seeking | Binary: does the buyer move the stone toward light? |
+| 05 | Return Rate | Conflicted desire — set down, picked back up |
 | 06 | Spontaneous Price Anchor | Perceived value gap vs. AI market data |
 
-**Formula:**
+**Combined valuation formula:**
 ```
 behavioral_adjustment = (neuro_score - 5) / 10
 combined_estimate = AI_midpoint × (1 + behavioral_adjustment × 0.4)
 ```
 
-No equipment. No wearables. Deployable at artisanal mine sites in 61 countries with a smartphone. Takes 8–12 minutes per stone.
-
-Pilot dataset: 10 colored gemstone specimens. Predictive lift is greatest for Paraíba tourmalines, unheated rubies, and alexandrite — stones where optical analysis systematically undersells the desire premium.
+Deployable at artisanal mine sites in 61 countries with a smartphone and a scoring sheet. Takes 8–12 minutes per stone. Predictive lift is greatest for Paraíba tourmalines, unheated rubies, and alexandrite — stones where optical analysis systematically undersells the desire premium.
 
 ---
 
@@ -79,9 +79,9 @@ Pilot dataset: 10 colored gemstone specimens. Predictive lift is greatest for Pa
 
 ---
 
-## Mining Dataset (in-app)
+## Mining Dataset
 
-10 priority sites selected for rarest, highest-value gemstones:
+10 priority sites mapped in-app, selected for rarest and highest-value gemstones:
 
 | Location | Country | Primary Gem | Rarity Signal | Price Trend |
 |----------|---------|-------------|---------------|-------------|
@@ -137,7 +137,7 @@ GemAI is not a marketplace, lab, or trading network. It is the **pricing layer**
 
 ## Author
 
-**Sachin Mittal** — [github.com/sazeleo](https://github.com/sazeleo) · [Website](#)
+**Sachin Mittal** — [github.com/sazeleo](https://github.com/sazeleo)
 
 Trader lineage. 5–6 jeweler contacts in Mumbai. 40-year legacy gemstone dealer in network. Building at the intersection of AI, gemology, and financial infrastructure.
 
