@@ -115,7 +115,7 @@ GemAI is not a marketplace, lab, or trading network. It is the **pricing layer**
     └────────────┘  └────────┬────────┘  └─────────────┘
                              │
     ┌────────────┐  ┌────────▼────────┐  ┌─────────────┐
-    │  Insurers  │──│                 │──│   Jewelers  │
+    │  Insurers  │──│   AI Valuation  │──│   Jewelers  │
     └────────────┘  └────────┬────────┘  └─────────────┘
                              │
                     ┌────────▼────────┐
